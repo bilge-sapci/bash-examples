@@ -1,0 +1,23 @@
+# ; ----> bir çok komutu kullanabilirsin.
+# terminale, date;cal;who şeklinde kullanılır
+
+# * ----> ls -l u*
+# ? ----> ls -lap /bin/?? , ? karakter demektir.
+
+# [] ---> ls -l /etc/[de]* , d veya e ile başlasın
+
+# ^ ---> ls -l [^u]*, köşeli parantez içerisinde ^ kullanılırsa u ile başlamayanlar demek 
+
+# echo merhaba{\ ahmet,\ ali,\ veli}\ hosgeldiniz
+    #çıktı 
+        #merhaba ahmet hosgeldiniz merhaba ali hosgeldiniz merhaba veli hosgeldiniz
+
+# touch file{1..10}.txt
+    #çıktı , 1 den 10 a kadar txt uzantılı dosya oluşturur.
+
+#touch file10.txt{,.eski}
+    #çıktı, file10.txt.eski diye bir dosya oluşturur.
+
+# echo {a,b,c}{1..5}
+    #çıktı, a1 a2 a3 a4 a5 b1 b2 b3 b4 b5 c1 c2 c3 c4 c5
+

@@ -1,0 +1,20 @@
+#SHELL'DE KULLANILAN TIRNAKLAR
+
+#TERS TIRNAK = `komut`
+
+    # deger=`date`
+    # echo $deger
+
+
+#DÜZ TEK TIRNAK= 'ifade'
+
+    # echo 'Sistemin adı `hostname`'
+    #çıktı, Sistemin adı `hostname`
+
+#DÜZ ÇİFT TIRNAK= "ifade"
+
+    # echo "Sistemin adı `hostname`"
+    #çıktı, Sistemin adı suleyman-VirtualBox
+
+
+

@@ -1,0 +1,24 @@
+# KURALLI İFADELER (REGULAR EXPRESSIONS)
+
+# ^   Satır başı anlamına gelir.
+# $   Satır sonu anlamına gelir.
+# .   Herhangi bir karakter demektir.
+# *   Kendisinden önceki karakterleri tekrarlatır.
+# []  Köşeli parantez içerisindeki karakterlerden biri gelebilir. [0-9] 0 dan 9 a herhangi biri gelebilir
+# [^] Köşeli parantez içerisindeki karakter haricinde bir karakter gelebilir.
+
+# terminalde;
+
+cd /usr/share/dict altında words dosyası var. Linux larda olurmuş
+
+
+cat words | grep ^kar # kar ile başlayanları listeler
+cat words | grep kar$ # kar ile bitenleri listeler
+cat words | grep -i ^kar #küçük-büyük harf farketmeksizin kar ile başlayanları getirir
+cat words | grep .kar. # karın sağında ve solunda karakterler olsun
+cat words | grep ^kar* # hem ka ile hem kar ile başlayanları getirir.
+cat words | grep ^k....r$ #k ile başlasın r ile bitsin arada 4 karakter olsun
+cat words | grep kar | grep -v ^kar | grep -v kar$ # kar olsun ama kar ile başlamasın ve bitmesin
+cat words | grep -ic ^k....r$ # büyük küçük harf farketmeksizin k ile başlayan r ile biten
+#kelimelerin kaç tane olduğunu getirir. c nin anlamı kaç tane kelime olduğunun çıktısını verir
+cat words | grep -in ^k....r$ # n de kaçıncı satırlarda olduklarını söyler.
