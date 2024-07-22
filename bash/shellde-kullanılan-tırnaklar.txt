@@ -14,7 +14,7 @@
 #DÜZ ÇİFT TIRNAK= "ifade"
 
     # echo "Sistemin adı `hostname`"
-    #çıktı, Sistemin adı suleyman-VirtualBox
+    #çıktı, Sistemin adı bilge-VirtualBox
 
 
 
