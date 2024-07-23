@@ -9,7 +9,7 @@
 
 # terminalde;
 
-cd /usr/share/dict altında words dosyası var. Linux larda olurmuş
+cd /usr/share/dict altında words dosyası var. Linux larda.
 
 
 cat words | grep ^kar # kar ile başlayanları listeler
