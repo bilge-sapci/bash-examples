@@ -1,0 +1,36 @@
+1.matematik-testi:
+    Kullanıcıya iki rastgele sayının toplama işlemini sorun. 
+    Rastgele sayı 1 ile 100 arasında olmalı.
+    Cevabı kullanıcıdan alın.
+    Eğer cevap doğru ise Doğru cevap, yanlış ise yanlış cevap diyerek doğru cevabı gösterin.
+
+2.sihirli-top-oyunu:
+    Kullanıcının sorduğu sorulara göre aşağıda yer alan yanıtları rastgele gösterin.
+    
+    Kullanıcıdan soru sormasını isteyin.
+
+    Ve aşağıdaki yanıtlardan birini rastgele gösterin.
+    
+    Yanıtlar:
+    "Evet, kesinlikle."
+    "Hayır, kesinlikle değil."
+    "Belki, zaman gösterecek."
+    "Yeniden sor, şuan net değil."
+    "Kesinlikle, neden olmasın?"
+    "Hiçbir fikrim yok."
+
+    q ya da quit yazarak çıkmalarını sağlayın.
+
+3.tas-kagıt-makas:
+    Bilgisayara rastgele tas, kağıt, makas tan birini seçtirin.
+    Kullanıcıdan da bu seçenekler arasından birini seçtirin.
+    Ve kazandın ya da kaybettin yazdırın.
+
+    kullanıcı taş, bilgisayar makas seçerse; kazandınız
+    kullanıcı kağıt, bilgisayar taş seçerse; kazandınız
+    kullanıcı makas, bilgisayar kağıt seçerse; kazandınız
+
+    kullanıcı taş, bilgisayar taş seçerse; berabere
+
+    diğer koşullarda kaybettiniz
+    yazmalı.
